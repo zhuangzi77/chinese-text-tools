@@ -68,4 +68,4 @@ for k in ngrams:
     output_file.write(k + ', ' + str(ngrams[k]) + '\n')
 output_file.close()
 print('Results saved as ' + str(new_file_path))
-
+print('If text does not display correctly in Excel, use Google Sheets, OpenOffice Calc, or LibreOffice to view results.')
