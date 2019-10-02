@@ -53,7 +53,7 @@ min_val = int(input('Enter the lowest number of occurences to record:  '))
 ngrams = avoid_low_values(ngrams, min_val)
 
 #Create a CSV file to store the data.
-#Extract the fileName from the file_location.
+#Extract the base_name from the file_location.
 base_name = os.path.basename(file_location)
 #Returns file name with extension.
 split_base_name = os.path.splitext(base_name)
